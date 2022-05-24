@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+@layer base {
+    body, h1, p, button {
+      @apply font-sans;
+    }
+  }
+
+  @keyframes zoom {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  .animated {
+    animation-duration: 1000ms;
+    animation-name: zoom;
+  }
+  .spinned {
+    animation-duration: 500ms;
+    animation-name: spin;
+    animation-fill-mode: forwards;
+  }
