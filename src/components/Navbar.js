@@ -12,7 +12,7 @@ import { FaTwitter } from 'react-icons/fa';
 export default function Navbar() {
 	const [ navOpen, setnavOpen ] = useState(false);
 	return (
-		<div className="w-screen h-[80px] flex items-center justify-between px-8 sm:px-16">
+		<div className="w-screen h-[80px] flex items-center justify-between px-8 sm:px-16 max-w-[1300px]">
 			{!navOpen && <img className=" max-w-[150px] sm:max-w-[200px] object-contain" src={Logo} alt="" />}
 			{/* nav items */}
 			<div className="hidden md:flex items-center">

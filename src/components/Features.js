@@ -17,13 +17,13 @@ const Features = () => {
 				can use them on the go
 			</p>
 			<div>
-				<div className="flex flex-col md:flex-row items-center justify-center my-12 max-w-[900px]">
+				<div className="flex flex-col lg:flex-row items-center justify-center my-12 max-w-[900px]">
 					<button
 						className={
 							one ? (
-								'hover:text-SoftRed animated h-[60px] w-full md:w-[300px] text-VeryDarkBlue font-semibold text-xl px-3 p-4 border-b-2 border-b-SoftRed'
+								'hover:text-SoftRed animated h-[60px] w-full lg:w-[300px] text-VeryDarkBlue font-semibold text-xl px-3 p-4 border-b-2 border-b-SoftRed'
 							) : (
-								'hover:text-SoftRed h-[60px] w-full md:w-[300px] text-GrayishBlue text-xl px-3 p-2 border-b-2 border-b-gray-400'
+								'hover:text-SoftRed h-[60px] w-full  lg:w-[300px] text-GrayishBlue text-xl px-3 p-2 border-b-2 border-b-gray-400'
 							)
 						}
 						onClick={() => {
@@ -37,9 +37,9 @@ const Features = () => {
 					<button
 						className={
 							two ? (
-								'hover:text-SoftRed h-[60px] animated w-full md:w-[300px] text-VeryDarkBlue font-semibold text-xl px-3 p-4 border-b-2 border-b-SoftRed'
+								'hover:text-SoftRed h-[60px] animated w-full lg:w-[300px] text-VeryDarkBlue font-semibold text-xl px-3 p-4 border-b-2 border-b-SoftRed'
 							) : (
-								'hover:text-SoftRed h-[60px] w-full md:w-[300px] text-GrayishBlue text-xl px-3 p-2 border-b-2 border-b-gray-400'
+								'hover:text-SoftRed h-[60px] w-full lg:w-[300px] text-GrayishBlue text-xl px-3 p-2 border-b-2 border-b-gray-400'
 							)
 						}
 						onClick={() => {
@@ -53,9 +53,9 @@ const Features = () => {
 					<button
 						className={
 							three ? (
-								'hover:text-SoftRed h-[60px] animated w-full md:w-[300px] text-VeryDarkBlue font-semibold text-xl px-3 p-4 border-b-2 border-b-SoftRed'
+								'hover:text-SoftRed h-[60px] animated w-full lg:w-[300px] text-VeryDarkBlue font-semibold text-xl px-3 p-4 border-b-2 border-b-SoftRed'
 							) : (
-								'hover:text-SoftRed h-[60px] w-full md:w-[300px] text-GrayishBlue text-xl px-3 p-2 border-b-2 border-b-gray-400'
+								'hover:text-SoftRed h-[60px] w-full lg:w-[300px] text-GrayishBlue text-xl px-3 p-2 border-b-2 border-b-gray-400'
 							)
 						}
 						onClick={() => {

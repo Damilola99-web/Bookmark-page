@@ -18,6 +18,22 @@
       transform: scale(1);
     }
   }
+  @keyframes left {
+    0% {
+      transform: translateX(-200px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  @keyframes right {
+    0% {
+      transform: translateX(200px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
   @keyframes spin {
     0% {
       transform: rotate(0deg);
@@ -30,8 +46,18 @@
     animation-duration: 1000ms;
     animation-name: zoom;
   }
+  .animated-left {
+    animation-duration: 1000ms;
+    animation-name: left;
+  }
+  .animated-right {
+    animation-duration: 1000ms;
+    animation-name: right;
+  }
   .spinned {
     animation-duration: 500ms;
     animation-name: spin;
     animation-fill-mode: forwards;
   }
+
+

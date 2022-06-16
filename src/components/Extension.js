@@ -15,7 +15,7 @@ export default function Extension() {
 				patronize
 			</p>
 			{/* card container */}
-			<div className="flex flex-col md:flex-row my-6 md:space-x-6 mb-8 w-full items-center justify-center">
+			<div className="flex flex-col md:flex-row my-6 md:space-x-6 mb-8 w-full flex-wrap items-center justify-center">
 				{/* card */}
 				<div className="self-center w-[100%] max-w-[300px] md:w-[240px] rounded-lg shadow-lg shadow-slate-300 h-[320px] flex items-center flex-col justify-center my-4 md:my-0">
 					<img src={Chrome} alt="" className="max-w-[100px] mb-6" />

@@ -100,8 +100,8 @@ export default function Faq() {
 				</div>
 				{/* faq end */}
 				{/* faq */}
-				<div className="w-[90%] flex flex-col max-w-[550px]">
-					<div className=" w-full flex justify-between items-center max-w-[550px] border-t-2 border-b-2 py-4">
+				<div className="w-[90%] flex flex-col max-w-[550px] border-b-2">
+					<div className=" w-full flex justify-between items-center max-w-[550px] border-t-2  py-4">
 						<p className="hover:text-SoftRed text-VeryDarkBlue text-lg">
 							What about other chromium browser ?
 						</p>

@@ -3,7 +3,7 @@ import HeroImg from '../images/illustration-hero.svg';
 
 export default function Hero() {
 	return (
-		<div className=" w-screen px-8 sm:px-16 flex flex-col-reverse md:flex-row items-center justify-between my-10">
+		<div className=" w-screen px-8 sm:px-16 flex flex-col-reverse md:flex-row items-center justify-between my-10 max-w-[1300px]">
 			<div className=" w-[100%] md:w-[50%] flex flex-col items-center md:items-start md:pr-8 text-center md:text-left animated">
 				<p className=" font-bold text-3xl md:text-5xl mb-6 text-VeryDarkBlue">A Simple Bookmark Manager</p>
 				<p className=" text-lg text-GrayishBlue">

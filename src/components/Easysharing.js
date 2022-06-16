@@ -6,8 +6,8 @@ import Image from '../images/illustration-features-tab-3.svg';
 const Easysharing = () => {
 	return (
 		<div className="w-full flex flex-col md:flex-row items-center md:justify-between my-6">
-			<img src={Image} alt="" className="w-full md:w-[45%] max-w-[500px] animated" />
-			<div className="w-full md:w-[50%] text-center md:text-left flex flex-col justify-center animated">
+			<img src={Image} alt="" className="w-full md:w-[45%] max-w-[500px] animated-left" />
+			<div className="w-full md:w-[50%] text-center md:text-left flex flex-col justify-center animated-right">
 				<p className="text-3xl text-VeryDarkBlue font-bold my-6 text-center md:text-left">
 					Share your bookmarks
 				</p>
